@@ -76,6 +76,7 @@ npx playwright show-trace trace.zip
 ## 🔗 Reference URLs
 
 - **Playwright CLI Documentation:** https://github.com/microsoft/playwright-cli
+- **Playwright CLI:** https://playwright.dev/agent-cli/introduction
 - **Agent Skills:** https://agentskills.io/home
 
 ---
