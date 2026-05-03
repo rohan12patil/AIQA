@@ -4,9 +4,10 @@
 
 ## 📦 Installation
 
-Install the Playwright CLI globally using npm:
+Init Playwright & install Playwright CLI globally using npm:
 
 ```bash
+npm init playwright@latest
 npm install -g @playwright/cli@latest 
 ```
 
@@ -18,17 +19,20 @@ Check that the installation was successful:
 playwright-cli --help
 ```
 
-### Install Skills & Agent
+### Install Skills
 
 Install additional skills for the Playwright CLI:
 
 ```bash
-npm init playwright@latest
 playwright-cli install --skills
-npx playwright init-agents --loop=vscode
-
 ```
 
+### Install Agents (Optional)
+
+
+```bash
+npx playwright init-agents --loop=vscode
+```
 ---
 
 ## 🚀 Usage Examples
