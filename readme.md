@@ -23,7 +23,9 @@ playwright-cli --help
 Install additional skills for the Playwright CLI:
 
 ```bash
+npm init playwright@latest
 playwright-cli install --skills
+
 ```
 
 ---
