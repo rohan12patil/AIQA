@@ -7,7 +7,7 @@
 Install the Playwright CLI globally using npm:
 
 ```bash
-npm install -g @playwright/cli@latest
+npm install -g @playwright/cli@latest 
 ```
 
 ### Verify Installation
