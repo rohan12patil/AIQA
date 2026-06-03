@@ -1,6 +1,6 @@
-# 🎭 Playwright CLI
+# 🎭 AI Assisted Test Automation 
 
-> A powerful command-line interface for Playwright, enabling automated browser testing and web automation.
+> 
 
 ## 📦 Installation
 
