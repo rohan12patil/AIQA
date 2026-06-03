@@ -1,7 +1,5 @@
 # 🎭 AI Assisted Test Automation 
 
-> 
-
 ## 📦 Installation
 
 Init Playwright & install Playwright CLI globally using npm:
@@ -27,51 +25,6 @@ Install additional skills for the Playwright CLI:
 playwright-cli install --skills
 ```
 
-### Install Agents (Optional)
-
-
-```bash
-npx playwright init-agents --loop=vscode
-```
----
-
-## 🚀 Usage Examples
-
-### Prompt 1: Basic Login & Checkout with Video Recording
-
-```
-Use Playwright cli, goto website www.saucedemo.com , login with existing credentials. Complete the checkout process. 
-Record a video, save it using –filename=demo.mp4
-```
-
-**Steps:**
-1. Using Playwright cli ,  navigate to www.saucedemo.com
-2. Login with existing credentials
-3. Complete the checkout process
-4. Record a video, Save the recording as `demo.mp4`
-
-### Prompt 2: Advanced Recording with Trace & Screenshots
-
-```
- For previous prompt, record a trace with screenshots=true, snapshots=true, save as trace.zip 
-```
-
-```bash
-playwright-cli run \
-  --url www.saucedemo.com \
-  --trace \
-  --screenshots=true \
-  --snapshots=true \
-  --trace-file=trace.zip
-```
-
-### Prompt 3: View Trace File
-
-```bash
-npx playwright show-trace trace.zip
-```
-
----
 
 ## 🔗 Reference URLs
 
