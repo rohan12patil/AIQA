@@ -68,10 +68,20 @@ Use the test cases in test_cases.md file & write playwright automation test scri
 
 
 
+prompt for BA 
+
+Role: You are an expert Business Analyst.
+
+Task1: Explore & review https://www.vitaminshoppe.com/ website already opened in integrated browser of VSCode. 
+Login as guest user. 
+
+Use Playwright CLI & your understanding of the website flows to identify requirements,functional scenarios, features & user journeys.
+
+Create list of all user stories including functional, non functional requirements.
+
+For each user story list out the description & acceptance criteria.
+
+Then update the requirements.md file with the information after the analysis is complete
 
 
-
-Prompt2 Variation:
-Using Playwright-CLI I want you to create valid automation testcases use POM[Page Object Model] architecture for Test Cases A1 , B1 & C1
-https://playwright.dev/docs/pom refer this for POM architecture
 
